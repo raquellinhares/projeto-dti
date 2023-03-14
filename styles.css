@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.marcarlemb {
+    padding: 30px 20px;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    width: 100%;
+}
+
+.marcarlemb input {
+    flex: 3;
+    font-size: 1rem;
+    border-radius: 5px;
+    padding: 12px;
+    font-weight: 500;
+}
+
+.marcarlemb input:focus {
+    outline: none;
+    border-color: blue;
+}
+
+.task-botton {
+    flex: 1;
+    border-radius: 5px;
+    font-weight: 500;
+    height: 100%;
+    font-size: 1rem;
+    border: none;
+    background-color: blue;
+    color: white;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.tarefas {
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    margin-top: 60px;
+}
+
+.error {
+    border: 2px solid red !important;
+}
+
+.error::placeholder {
+    color: red;
+}
+
+.tasks-container {
+  background-color: #fff;
+  padding: 30px 20px;
+  margin-top: 60px;
+  border-radius: 10px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  width: 100%;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+  margin-top: 6px;
+}
+
+.task-item i {
+    background-color: blue;
+    color: #fff;
+    padding: 12px;
+    border-radius: 5px;
+  }
+  
+  .task-item i:hover {
+    cursor: pointer;
+  }
+
+  .completed{
+    text-decoration: line-through;
+  }
