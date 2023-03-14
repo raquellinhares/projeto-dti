@@ -3,8 +3,6 @@ const inputElement2 = document.querySelector(".date");
 const addTaskButton = document.querySelector(".task-botton");
 
 const tasksContainer = document.querySelector('.tasks-container')
-const tasksContainer2 = document.querySelector('.tasks-container')
-
 const validateInput = () => inputElement0.value.trim().length > 0;
 
 const AddTask = () => {
@@ -95,7 +93,6 @@ const AddTask2 = () => {
   taskItemContainer2.appendChild(taskContent2);
   taskItemContainer2.appendChild(deleteItem2);
 
-  tasksContainer2.appendChild(taskItemContainer2);
 };
 
 const InputChange2 = () => {
